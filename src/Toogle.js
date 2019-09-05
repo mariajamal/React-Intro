@@ -7,7 +7,7 @@ const Toogle = (props)=>{
     return(
         <div>
             {props.toogle && <h1>Hello All</h1>}
-            <button onClick={props.toogleFunction}>Toogle</button>
+            <button class="btn btn-secondary" onClick={props.toogleFunction}>Toogle</button>
         </div>
     )
 }

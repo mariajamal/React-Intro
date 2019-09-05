@@ -6,7 +6,7 @@ import Count from "./Count"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container" style={{marginTop:"35%"}}>
       <Toogle/>
       <Count/>
     </div>

@@ -1,8 +1,10 @@
 import {combineReducers} from 'redux'
-import toogleReducer from './reducer'
+import toogleReducer from './toogleReducer'
+import countReducer from './countReducer'
 
 const rootReducer=combineReducers({
-    toogleReducer
+    toogleReducer,
+    countReducer
 })
 
 export default rootReducer;

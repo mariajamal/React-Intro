@@ -1,19 +1,10 @@
-
 const initialstate ={
-    toogle:false,
-    count:0
+     count:0
 }
 
 //Function
 
-const toogleReducer=(state=initialstate, action)=>{
-    switch(action.type){
-        case "TOOGLE":
-            return {...state, toogle: !state.toogle}
-        default:
-            return {...state};
-        }
-}
+
 const countReducer = (state=initialstate, action)=>{
     switch(action.type){
         case "INC":
@@ -25,4 +16,4 @@ const countReducer = (state=initialstate, action)=>{
     }
 }
 
-export  {toogleReducer, countReducer};
+export default countReducer;
